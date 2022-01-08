@@ -1,0 +1,10 @@
+.places {
+  max-width: 984px;
+  margin: 0 auto 92px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .places__grid-container {
+    padding-bottom: 16px;
+  }
+}

@@ -1,0 +1,4 @@
+.places__two-row {
+  display: flex;
+  flex-direction: column;
+}
