@@ -7,9 +7,3 @@
   line-height: 1.5;
   color: #FFFFFF;
 }
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .intro__list-item {
-    margin: 0 16px 0;
-  }
-}
