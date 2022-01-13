@@ -1,0 +1,10 @@
+.place__article {
+  grid-area: article;
+  align-self: start;
+}
+
+@media screen and (max-width: 767px) {
+  .place__article {
+    padding: 0 16px 0;
+  }
+}

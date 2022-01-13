@@ -1,0 +1,21 @@
+.place__article-text {
+  margin: 0 0 25px;
+  padding: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.63;
+  color: #FFFFFF;
+}
+
+.place__article-text:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place__article-text {
+    font-size: 16px;
+  }
+}
+
+
