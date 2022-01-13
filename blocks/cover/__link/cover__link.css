@@ -1,6 +1,5 @@
 .cover__link {
-  width: 100%;
-  height: 100%;
+  min-height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,17 +9,6 @@
 
 .cover__link::before {
   content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #2A2C2F;
-  opacity: 0.3;
-  transition: opacity 0.1s linear;
-}
-
-.cover__opacity-layer {
   position: absolute;
   top: 0;
   left: 0;

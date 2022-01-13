@@ -1,5 +1,6 @@
 .lead__image-wrapper {
   box-sizing: border-box;
+  margin: 0;
   max-width: 984px;
 }
 

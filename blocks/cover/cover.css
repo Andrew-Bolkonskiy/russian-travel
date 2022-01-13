@@ -1,7 +1,10 @@
 .cover {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   max-width: 1184px;
-  height: 740px;
+  min-height: 740px;
   margin: 0 auto;
   background-image: url(../../images/cover-image.jpg);
   background-repeat: no-repeat;
@@ -11,18 +14,18 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .cover {
-    max-height: 640px;
+    min-height: 640px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .cover {
-    max-height: 480px;
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover {
-    max-height: 200px;
+    min-height: 200px;
   }
 }
